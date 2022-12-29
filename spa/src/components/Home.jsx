@@ -134,6 +134,14 @@ export default function Home()  {
           </div>
         </section>
 
+        <section id="contact">
+          <p>
+            Neler mi Yapıyoruz?
+          
+          </p>
+          
+        </section>
+
         
         
       </div>

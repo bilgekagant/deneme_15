@@ -18,19 +18,15 @@ export default function Layout() {
               <Nav className="me-auto">
               <LinkContainer to="/home"><Nav.Link>Home</Nav.Link></LinkContainer> 
               <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer> 
-              <LinkContainer to="/services"><Nav.Link>Services</Nav.Link></LinkContainer> 
-              <LinkContainer to={{path : "/home",search: "?sort=name", hash:"#enstruments", state: { fromDashBoard: true}}}><Nav.Link>Enstruments</Nav.Link></LinkContainer> 
+              <LinkContainer to="/services"><Nav.Link>Services</Nav.Link></LinkContainer>  
               <NavDropdown title="Enstruments" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/vurmali">vurmali</NavDropdown.Item>
-                <NavDropdown.Item href="/nefesli">
-                  nefesli
-                </NavDropdown.Item>
-                <NavDropdown.Item href="/telli">telli</NavDropdown.Item>
-                {/* <NavDropdown.Divider /> */}
-                <NavDropdown.Item href="/tuşlu">
-                  tuşlu
-                </NavDropdown.Item>
+                <LinkContainer to="/vurmali"><NavDropdown.Item>vurmali</NavDropdown.Item></LinkContainer>
+                <LinkContainer to="/nefesli"><NavDropdown.Item>nefesli</NavDropdown.Item></LinkContainer> 
+                <LinkContainer to="/telli"><NavDropdown.Item>telli</NavDropdown.Item></LinkContainer> 
+
+                <LinkContainer to="/tuslu"><NavDropdown.Item>tuşlu</NavDropdown.Item></LinkContainer>
               </NavDropdown>
+              <LinkContainer to="/contactus"><Nav.Link>ContactUs</Nav.Link></LinkContainer> 
             </Nav>
           </Navbar.Collapse>
 
