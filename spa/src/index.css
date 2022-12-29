@@ -91,3 +91,32 @@ body {
 #contactusText {
   height: 40%;
 }
+
+.submit-button{
+  height: 50px;
+  width: 300px;
+  border-radius: 8px;
+  border: none;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-caption{
+  background-color: rgba(10, 10, 10, 0.5);
+  border-radius: 10px;
+}
+
+.card-img{
+  cursor: pointer;
+  transition: box-shadow 0.15s;    
+}
+
+.card :hover{
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.30);
+}
+
+.card-img :active{
+
+}

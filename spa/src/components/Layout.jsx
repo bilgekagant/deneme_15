@@ -20,11 +20,11 @@ export default function Layout() {
               <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer> 
               <LinkContainer to="/services"><Nav.Link>Services</Nav.Link></LinkContainer>  
               <NavDropdown title="Enstruments" id="basic-nav-dropdown">
-                <LinkContainer to="/vurmali"><NavDropdown.Item>vurmali</NavDropdown.Item></LinkContainer>
-                <LinkContainer to="/nefesli"><NavDropdown.Item>nefesli</NavDropdown.Item></LinkContainer> 
-                <LinkContainer to="/telli"><NavDropdown.Item>telli</NavDropdown.Item></LinkContainer> 
-
-                <LinkContainer to="/tuslu"><NavDropdown.Item>tuşlu</NavDropdown.Item></LinkContainer>
+                <LinkContainer to="/vurmali" id="vurmali1"><NavDropdown.Item>Vurmalı</NavDropdown.Item></LinkContainer>
+                <LinkContainer to="/nefesli"><NavDropdown.Item>Nefesli</NavDropdown.Item></LinkContainer> 
+                <LinkContainer to="/telli"><NavDropdown.Item>Telli</NavDropdown.Item></LinkContainer> 
+                <LinkContainer to="/yayli"><NavDropdown.Item>Yaylı</NavDropdown.Item></LinkContainer> 
+                <LinkContainer to="/tuslu"><NavDropdown.Item>Tuşlu</NavDropdown.Item></LinkContainer>
               </NavDropdown>
               <LinkContainer to="/contactus"><Nav.Link>ContactUs</Nav.Link></LinkContainer> 
             </Nav>

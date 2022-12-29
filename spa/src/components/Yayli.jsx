@@ -1,7 +1,7 @@
 export default function () {
     return (
         <div>
-            <h1>Yayli</h1>
+            <h1>Yaylı</h1>
         </div>
     )
 }

@@ -5,7 +5,7 @@ import FormLabel from 'react-bootstrap/esm/FormLabel';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import Button from 'react-bootstrap/esm/Button';
 
 export default function ContactUs (){
     return(
@@ -46,8 +46,9 @@ export default function ContactUs (){
                         </Col>
                     </Row>  
                 </FormGroup>
-
+                <Button className=""as="input" type="submit" value="Gönder" />{' '}
             </form>
+
         </Container>
 
        
