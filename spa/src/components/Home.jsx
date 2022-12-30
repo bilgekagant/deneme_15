@@ -128,31 +128,31 @@ export default function Home()  {
         
         
         <div id="crsl" className="container"><Corousel/></div>
-        <h2>Agalar music olarak her zaman en iyi hizmeti size sunmaya özen gösteriyoruz.</h2>
+        <h2 className="homepage-slogan">Agalar music olarak her zaman en iyi hizmeti size sunmaya özen gösteriyoruz.</h2>
         <section id="enstruments">
           <div className="d-flex flex-row">
             <div className="p-2 position-relative"><Cardd/></div>
           </div>
         </section>
 
-        <Container>
-          <h1 className="homepage">Neler mi Yapıyoruz?</h1>
+        <Container >
+          <h1 className="homepage-services-header">Neler mi Yapıyoruz?</h1>
           <Row>
-            <Col lg={true}>
+            <Col lg={true}className="homepage-services">
               <h2>Hayalinizdeki enstrumanı bulun!</h2>
               <p>Geniş ürün yelpazemizle hayalinizdeki ürünü bulmanızda yardımcı oluyor, size özel önerilerde bulunuyoruz</p>
             </Col>
-            <Col>
+            <Col className="homepage-services">
               <h2>Enstrumanınızın bakımını yaptırın</h2>
               <p>Enstrumanınızı en iyi halinde ve uzun süre kullanabilmeniz için gerekli bakımları sizin için yapıyor ve süreç hakkında size bilgi veriyoruz</p>
             </Col>
           </Row>
           <Row>
-            <Col lg={true}>
+            <Col lg={true} className="homepage-services">
               <h2>Enstrumanınızda sorun mu var? Getirin tamir edelim</h2>
               <p>Deneyimli teknik ekibimizle enstrumanınızın her türlü sorununda elimizden geldiğince teknik destek sağlıyoruz</p>
             </Col>
-            <Col>
+            <Col className="homepage-services">
               <h2>Müzik grubunuzun kariyerinde adım atlatın!</h2>
               <p>Deneyimli kariyer ekibimizle beraber müzik grubunuzun geleceğini en iyi şekilde oluşturmanızda yardımcı olalım</p>
             </Col>

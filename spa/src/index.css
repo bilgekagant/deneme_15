@@ -70,6 +70,13 @@ button:focus-visible {
 } */
 
 
+
+*{
+  font-family: 'Patrick Hand', cursive;
+}
+
+
+
 #crsl {
   margin-bottom: 110px;
 
@@ -85,7 +92,7 @@ button:focus-visible {
 }
 
 body {
-  background-color: #FD8A8A;
+  background-color: #3f4644;
 }
 
 #contactusText {
@@ -120,3 +127,27 @@ body {
 .card-img :active{
 
 }
+
+.homepage-services{
+  background-color: aliceblue;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+.homepage-services-header{
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+.homepage-slogan{
+  background-color: rgb(158, 120, 201);
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto;
+  width: 50%;
+}
+
