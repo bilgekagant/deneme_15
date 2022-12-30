@@ -61,7 +61,7 @@ const Cardd = () => {
           <div class="card-header mx-auto">
             Tuşlu Çalgılar
           </div>
-          <img class="card-img" src="pexels-bryan-geraldo-586415.jpg" alt="Card image"/>
+          <img class="card-img" src="pexels-pixabay-164715.jpg" alt="Card image"/>
           <Link to="/tuslu">
             <div class="card-img-overlay">
             </div>
