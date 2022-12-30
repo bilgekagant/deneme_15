@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Container from "react-bootstrap/esm/Container";
 
 const Cardd = () => {
   return(
@@ -134,13 +135,30 @@ export default function Home()  {
           </div>
         </section>
 
-        <section id="contact">
-          <p>
-            Neler mi Yapıyoruz?
-          
-          </p>
-          
-        </section>
+        <Container>
+          <h1 className="homepage">Neler mi Yapıyoruz?</h1>
+          <Row>
+            <Col lg={true}>
+              <h2>Hayalinizdeki enstrumanı bulun!</h2>
+              <p>Geniş ürün yelpazemizle hayalinizdeki ürünü bulmanızda yardımcı oluyor, size özel önerilerde bulunuyoruz</p>
+            </Col>
+            <Col>
+              <h2>Enstrumanınızın bakımını yaptırın</h2>
+              <p>Enstrumanınızı en iyi halinde ve uzun süre kullanabilmeniz için gerekli bakımları sizin için yapıyor ve süreç hakkında size bilgi veriyoruz</p>
+            </Col>
+          </Row>
+          <Row>
+            <Col lg={true}>
+              <h2>Enstrumanınızda sorun mu var? Getirin tamir edelim</h2>
+              <p>Deneyimli teknik ekibimizle enstrumanınızın her türlü sorununda elimizden geldiğince teknik destek sağlıyoruz</p>
+            </Col>
+            <Col>
+              <h2>Müzik grubunuzun kariyerinde adım atlatın!</h2>
+              <p>Deneyimli kariyer ekibimizle beraber müzik grubunuzun geleceğini en iyi şekilde oluşturmanızda yardımcı olalım</p>
+            </Col>
+          </Row>
+        </Container>
+        
 
         
         
