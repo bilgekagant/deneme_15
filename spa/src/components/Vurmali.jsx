@@ -64,10 +64,15 @@ const Cardd = () => {
 export default function Nefesli() {
     return (
         <div>
-            <h1 className='mx-auto'>Vurmalı</h1>
-            <div className="d-flex flex-row">
-                <div className="p-2 position-relative"><Cardd/></div>
-            </div>
+          <h1 className='mx-auto'>Vurmalı</h1>
+          <div className="d-flex flex-row">
+            <div className="p-2 position-relative"><Cardd/></div>
+          </div>
+
+          <div>
+            <a></a>
+          </div>
+      
         </div>
     )
 }
