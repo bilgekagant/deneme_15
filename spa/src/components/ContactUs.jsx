@@ -12,11 +12,12 @@ export default function ContactUs (){
         <Container className='position-relative'>
             <form>
                 <FormGroup className='mb-3' controlId='formGroupEmail'>
-                    <FormLabel>Email Address</FormLabel>
+                    <FormLabel className="form-label">Email Address</FormLabel>
                     <Form.Control type='email' placeholder='Enter email' />
 
                 </FormGroup>
                 <FormGroup className='mb-3'>
+                    <FormLabel className="form-label">İsim Soyisim</FormLabel>
                     <Row>
                         <Col>
                             <Form.Control placeholder="First name" />
@@ -28,10 +29,12 @@ export default function ContactUs (){
                 </FormGroup>
 
                 <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>Konu seçiniz</Form.Label>
+                    <Form.Label className="form-label" >Konu seçiniz</Form.Label>
                         <Form.Select defaultValue="Konu seçiniz">
+                            <option>Enstruman Onarım</option>
                             <option>Enstruman Bakım</option>
                             <option>Enstruman Satış</option>
+                            <option>Kariyer Desteği</option>
                             <option>İstek/Öneri/Şikayet</option>
                         </Form.Select>
                 </Form.Group>
@@ -39,14 +42,13 @@ export default function ContactUs (){
                 <FormGroup className='mb-3' controlId='exampleForm.ControlTextarea1'>
                     <Row>
                         <Form.Label column="lg" lg={12}>
-                            Large Text
                         </Form.Label>
                         <Col>
                             <Form.Control as= "textarea" rows={3} placeholder="İletmek istediğiniz konuyu yazınız" />
                         </Col>
                     </Row>  
                 </FormGroup>
-                <Button className=""as="input" type="submit" value="Gönder" />{' '}
+                <button className= "submit-button">Gönder</button>
             </form>
 
         </Container>

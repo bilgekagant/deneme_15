@@ -101,13 +101,21 @@ body {
 
 .submit-button{
   height: 50px;
-  width: 300px;
+  width: 40%;
   border-radius: 8px;
   border: none;
-  background-color: antiquewhite;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgba(33, 37, 41, 1);
+  margin-left: 30%;
+  display: block;
+  color: aliceblue;
+}
+
+.submit-button:hover{
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.30);
+}
+
+.submit-button:active{
+  opacity: 0.7;
 }
 
 .carousel-caption{
@@ -115,17 +123,12 @@ body {
   border-radius: 10px;
 }
 
-.card-img{
-  cursor: pointer;
-  transition: box-shadow 0.15s;    
-}
-
 .card :hover{
   box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.30);
 }
 
-.card-img :active{
-
+.card:active{
+  opacity: 0.7;
 }
 
 .homepage-services{
@@ -144,11 +147,12 @@ body {
 }
 
 .homepage-slogan{
-  background-color: rgb(158, 120, 201);
+  background-color: rgba(33, 37, 41, 1);
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
   margin: auto;
   width: 50%;
+  color: aliceblue;
 }
 
 .instrument-pages-header{
@@ -157,6 +161,10 @@ body {
   padding: 5px;
   text-align: center;
   color: aliceblue;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.form-label{
+  color: aliceblue;
 }
