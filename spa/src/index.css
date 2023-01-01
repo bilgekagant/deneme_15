@@ -132,17 +132,19 @@ body {
 }
 
 .homepage-services{
-  background-color: aliceblue;
+  background-color: rgba(33, 37, 41, 1);
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
+  color: aliceblue;
 }
 
 
 .homepage-services-header{
-  background-color: aliceblue;
+  background-color: rgba(33, 37, 41, 1);
   border-radius: 10px;
   padding: 5px;
+  color: aliceblue;
 
 }
 
@@ -167,13 +169,8 @@ body {
 
 .form-label{
   color: aliceblue;
-  margin-left: 20%;
-  margin-right: 20%;
 }
 
-.form-label{
-  color: aliceblue;
-}
 
 .vurmaliElements{
   background-color: aliceblue;
@@ -195,3 +192,17 @@ body {
   border-radius: 10px;
   padding: 10px;
 }
+
+.vurmaliElements{
+  background-color: rgba(33, 37, 41, 1);
+  color: aliceblue;
+  margin-left: 15%;
+}
+
+.instrument-text{
+  background-color: aliceblue;
+  color: rgba(33, 37, 41, 1);
+  border-radius: 10px;
+
+}
+
