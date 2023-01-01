@@ -64,7 +64,7 @@ const Cardd = () => {
 export default function Nefesli() {
     return (
         <div>
-            <h1 className='mx-auto'>Nefesli</h1>
+            <h1 className='mx-auto'class="instrument-pages-header">Nefesli</h1>
             <div className="d-flex flex-row">
                 <div className="p-2 position-relative"><Cardd/></div>
             </div>
