@@ -9,49 +9,49 @@ const Cardd = () => {
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-              Ney
+              Keman
             </div>
-            <img class="card-img" src="Ney-Nedir--Ozellikleri-ve-Kisaca-Anlatim-322b.jpg" alt="Card image"/>
+            <img class="card-img" src="pexels-clem-onojeghuo-111287.jpg" alt="Card image"/>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-            Flüt
+            Çello
             </div>
-            <img class="card-img" src="pexels-charles-parker-6647435.jpg" alt="Card image"/>
+            <img class="card-img" src="pexels-eleazar-ceballos-2032476.jpg" alt="Card image"/>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-            Klarnet
+            Viyolo
             </div>
-            <img class="card-img" src="pexels-cojanu-alexandru-9202266.jpg" alt="Card image"/>
+            <img class="card-img" src="pexels-pixabay-462447.jpg" alt="Card image"/>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6 mx-auto">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-             Trompet
+             Kontrabas
             </div>
-            <img class="card-img" src="pexels-kendall-hoopes-2261954.jpg" alt="Card image"/>
+            <img class="card-img" src="p1060235sw.jpg" alt="Card image"/>
           </div>
         </div>
         <div className="col-lg-4 col-md-12 col-sm-12 mx-auto">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-            Trombon
+            Kemençe
             </div>
-            <img class="card-img" src="pexels-klub-boks-14855750.jpg" alt="Card image"/>
+            <img class="card-img" src="istockphoto-926748980-170667a.jpg" alt="Card image"/>
           </div>
         </div>
         <div className="col-lg-4 col-md-12 col-sm-12 mx-auto">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-            Saksafon
+            Viyolonsel
             </div>
-            <img class="card-img" src="pexels-pixabay-45243.jpg" alt="Card image"/>
+            <img class="card-img" src="Viyolonsel_muzik_aleti.jpg" alt="Card image"/>
           </div>
         </div>
       </div>
@@ -61,10 +61,10 @@ const Cardd = () => {
   }
 
 
-export default function Nefesli() {
+export default function Yaylı() {
     return (
         <div>
-            <h1 className='mx-auto'>Yaylı</h1>
+            <h1 className='mx-auto'class="instrument-pages-header">Yaylı</h1>
             <div className="d-flex flex-row">
                 <div className="p-2 position-relative"><Cardd/></div>
             </div>

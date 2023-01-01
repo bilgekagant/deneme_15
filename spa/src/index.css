@@ -151,3 +151,12 @@ body {
   width: 50%;
 }
 
+.instrument-pages-header{
+  background-color: rgba(33, 37, 41, 1);
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  color: aliceblue;
+  margin-left: 300px;
+  margin-right: 300px;
+}

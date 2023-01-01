@@ -9,49 +9,57 @@ const Cardd = () => {
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-              Ney
+              Klasik Gitar
             </div>
-            <img class="card-img" src="Ney-Nedir--Ozellikleri-ve-Kisaca-Anlatim-322b.jpg" alt="Card image"/>
+            <img class="card-img" src="pexels-north-1407322.jpg" alt="Card image"/>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-            Flüt
+            Akustik Gitar
             </div>
-            <img class="card-img" src="pexels-charles-parker-6647435.jpg" alt="Card image"/>
+            <img class="card-img" src="pexels-pixabay-290660.jpg" alt="Card image"/>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-            Klarnet
+            Elektro Gitar
             </div>
-            <img class="card-img" src="pexels-cojanu-alexandru-9202266.jpg" alt="Card image"/>
+            <img class="card-img" src="pexels-méline-waxx-165971.jpg" alt="Card image"/>
           </div>
         </div>
         <div className="col-lg-4 col-md-6 col-sm-6 mx-auto">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-             Trompet
+             Bass Gitar
             </div>
-            <img class="card-img" src="pexels-kendall-hoopes-2261954.jpg" alt="Card image"/>
+            <img class="card-img" src="pexels-pixabay-35610.jpg" alt="Card image"/>
           </div>
         </div>
         <div className="col-lg-4 col-md-12 col-sm-12 mx-auto">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-            Trombon
+            Perdesiz Gitar
             </div>
-            <img class="card-img" src="pexels-klub-boks-14855750.jpg" alt="Card image"/>
+            <img class="card-img" src="maxresdefault.jpg" alt="Card image"/>
           </div>
         </div>
         <div className="col-lg-4 col-md-12 col-sm-12 mx-auto">
           <div class="card bg-dark text-white">
             <div class="card-header mx-auto">
-            Saksafon
+            12 Telli Gitar
             </div>
-            <img class="card-img" src="pexels-pixabay-45243.jpg" alt="Card image"/>
+            <img class="card-img" src="qaqXBnqX6H84w4BVVMXzpZ.jpg" alt="Card image"/>
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-12 col-sm-12 mx-auto">
+          <div class="card bg-dark text-white">
+            <div class="card-header mx-auto">
+            Jazz Gitar
+            </div>
+            <img class="card-img" src="hero-style-jazz-scaled.jpg" alt="Card image"/>
           </div>
         </div>
       </div>
@@ -61,10 +69,10 @@ const Cardd = () => {
   }
 
 
-export default function Nefesli() {
+export default function Telli() {
     return (
         <div>
-            <h1 className='mx-auto'>Telli</h1>
+            <h1 className='mx-auto' class="instrument-pages-header">Telli</h1>
             <div className="d-flex flex-row">
                 <div className="p-2 position-relative"><Cardd/></div>
             </div>
