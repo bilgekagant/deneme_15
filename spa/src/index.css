@@ -187,10 +187,24 @@ body {
 }
 
 .aboutUs {
-  background-color: aliceblue;
+  background-color: rgba(33, 37, 41, 1);
+  color: aliceblue;
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
+}
+
+.aboutus-h2{
+  color: aliceblue;
+}
+
+.team-img{
+  border-radius: 30px;
+  margin-top: 40px;
+}
+
+.aboutus-text{
+  margin-top: 10px;
 }
 
 .vurmaliElements{
