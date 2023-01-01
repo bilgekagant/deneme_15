@@ -71,7 +71,7 @@ const Cardd = () => {
                 <div className="p-2 position-relative"><Cardd/></div>
             </div>
 
-          <Container className='row vurmaliElements' id='ney'>
+          <Container className='row vurmaliElements mx-auto' id='ney'>
             <h2>Ney Markalarımız</h2>
               <ul className='col-lg-6 markalar'>
                 <li>İmece </li>
@@ -83,7 +83,7 @@ const Cardd = () => {
 
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='flut'>
+          <Container className='row vurmaliElements mx-auto' id='flut'>
             <h2>Flüt Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Yamaha</li>
@@ -95,7 +95,7 @@ const Cardd = () => {
           </Container>
           <br></br>
 
-          <Container className='row vurmaliElements' id='klarnet'>
+          <Container className='row vurmaliElements mx-auto' id='klarnet'>
             <h2>Klarnet Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Amati</li>
@@ -106,7 +106,7 @@ const Cardd = () => {
               <img class="vurmaliImg" src="pexels-cojanu-alexandru-9202266.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='trompet'>
+          <Container className='row vurmaliElements mx-auto' id='trompet'>
             <h2>Trompet Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Yamaha</li>
@@ -117,7 +117,7 @@ const Cardd = () => {
               <img class="vurmaliImg" src="pexels-kendall-hoopes-2261954.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='trombon'>
+          <Container className='row vurmaliElements mx-auto' id='trombon'>
             <h2>Trombon Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Bach </li>
@@ -128,7 +128,7 @@ const Cardd = () => {
               <img class="vurmaliImg" src="pexels-klub-boks-14855750.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='saksafon'>
+          <Container className='row vurmaliElements mx-auto' id='saksafon'>
             <h2>Saksafon Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Franck Bichon</li>

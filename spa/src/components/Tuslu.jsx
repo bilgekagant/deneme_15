@@ -71,7 +71,7 @@ export default function Tuslu() {
             </div>
 
 
-            <Container className='row vurmaliElements' id='org'>
+            <Container className='row vurmaliElements mx-auto' id='org'>
             <h2>Org Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Yamaha</li>
@@ -83,7 +83,7 @@ export default function Tuslu() {
 
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='kilise'>
+          <Container className='row vurmaliElements mx-auto' id='kilise'>
             <h2>Kilise Orgu Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Hammond</li>
@@ -96,7 +96,7 @@ export default function Tuslu() {
           </Container>
           <br></br>
 
-          <Container className='row vurmaliElements' id='synthesizer'>
+          <Container className='row vurmaliElements mx-auto' id='synthesizer'>
             <h2>Synthesizer Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Moog Music</li>
@@ -107,7 +107,7 @@ export default function Tuslu() {
               <img class="vurmaliImg" src="synths-9.6.2016.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='akordeon'>
+          <Container className='row vurmaliElements mx-auto' id='akordeon'>
             <h2>Akordeon Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Hohner</li>
@@ -118,7 +118,7 @@ export default function Tuslu() {
               <img class="vurmaliImg" src="pexels-pixabay-163823.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='piyano'>
+          <Container className='row vurmaliElements mx-auto' id='piyano'>
             <h2>Piyano Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Steinway & Sons </li>
@@ -131,7 +131,7 @@ export default function Tuslu() {
               <img class="vurmaliImg" src="pexels-pixabay-164743.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='keytar'>
+          <Container className='row vurmaliElements mx-auto' id='keytar'>
             <h2>Keytar Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Yamaha</li>

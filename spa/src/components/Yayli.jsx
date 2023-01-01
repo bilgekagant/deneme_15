@@ -69,7 +69,7 @@ export default function Yaylı() {
             <div className="d-flex flex-row">
                 <div className="p-2 position-relative"><Cardd/></div>
             </div>
-            <Container className='row vurmaliElements' id='keman'>
+            <Container className='row vurmaliElements mx-auto' id='keman'>
             <h2>Keman Markalarımız</h2>
               <ul className='col-lg-6 markalar'>
                 <li>Ashton</li>
@@ -81,7 +81,7 @@ export default function Yaylı() {
 
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='cello'>
+          <Container className='row vurmaliElements mx-auto' id='cello'>
             <h2>Çello Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Yamaha</li>
@@ -93,7 +93,7 @@ export default function Yaylı() {
           </Container>
           <br></br>
 
-          <Container className='row vurmaliElements' id='viyolo'>
+          <Container className='row vurmaliElements mx-auto' id='viyolo'>
             <h2>Viyolo Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Carlovy </li>
@@ -104,7 +104,7 @@ export default function Yaylı() {
               <img class="vurmaliImg" src="pexels-pixabay-462447.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='kontrabas'>
+          <Container className='row vurmaliElements mx-auto' id='kontrabas'>
             <h2>Kontrabas Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Yamaha</li>
@@ -115,7 +115,7 @@ export default function Yaylı() {
               <img class="vurmaliImg" src="p1060235sw.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='kemence'>
+          <Container className='row vurmaliElements mx-auto' id='kemence'>
             <h2>Kemençe Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Dest</li>
@@ -126,7 +126,7 @@ export default function Yaylı() {
               <img class="vurmaliImg" src="istockphoto-926748980-170667a.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='viyolonsel'>
+          <Container className='row vurmaliElements mx-auto' id='viyolonsel'>
             <h2>Viyolonsel Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Yamaha</li>

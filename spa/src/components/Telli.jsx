@@ -77,7 +77,7 @@ export default function Telli() {
             <div className="d-flex flex-row">
                 <div className="p-2 position-relative"><Cardd/></div>
             </div>
-            <Container className='row vurmaliElements' id='klasik'>
+            <Container className='row vurmaliElements mx-auto' id='klasik'>
             <h2>Klasik Gitar Markalarımız</h2>
               <ul className='col-lg-6 markalar'>
                 <li>Alhambra</li>
@@ -89,7 +89,7 @@ export default function Telli() {
 
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='akustik'>
+          <Container className='row vurmaliElements mx-auto' id='akustik'>
             <h2>Akustik Gitar Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Takamine</li>
@@ -101,7 +101,7 @@ export default function Telli() {
           </Container>
           <br></br>
 
-          <Container className='row vurmaliElements' id='elektro'>
+          <Container className='row vurmaliElements mx-auto' id='elektro'>
             <h2>Elektro Gitar Markalarımız</h2>
               <ul className='col-lg-6'>
               <li>Fender</li>
@@ -114,7 +114,7 @@ export default function Telli() {
               <img class="vurmaliImg" src="pexels-méline-waxx-165971.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='bass'>
+          <Container className='row vurmaliElements mx-auto' id='bass'>
             <h2>Bass Gitar Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Fender</li>
@@ -125,7 +125,7 @@ export default function Telli() {
               <img class="vurmaliImg" src="pexels-pixabay-35610.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='perdesiz'>
+          <Container className='row vurmaliElements mx-auto' id='perdesiz'>
             <h2>Perdesiz Gitar Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Yamaha</li>
@@ -136,7 +136,7 @@ export default function Telli() {
               <img class="vurmaliImg" src="maxresdefault.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='twelveS'>
+          <Container className='row vurmaliElements mx-auto' id='twelveS'>
             <h2>12 Telli Gitar Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Yamaha</li>
@@ -147,7 +147,7 @@ export default function Telli() {
               <img class="vurmaliImg" src="qaqXBnqX6H84w4BVVMXzpZ.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='jazz'>
+          <Container className='row vurmaliElements mx-auto' id='jazz'>
             <h2>Jazz Gitar Markalarımız</h2>
               <ul className='col-lg-6'>
                 <li>Yamaha</li>

@@ -84,7 +84,7 @@ export default function Vurmalı() {
                 <div className="p-2 position-relative"><Cardd/></div>
             </div>
 
-          <Container className='row vurmaliElements' id='bateri'>
+          <Container className='row vurmaliElements mx-auto' id='bateri'>
             <h2>Bateri Markalarımız</h2>
               <ul className='col-lg-6 markalar'>
                 <li>Yamaha</li>
@@ -97,7 +97,7 @@ export default function Vurmalı() {
 
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='bendir'>
+          <Container className='row vurmaliElements mx-auto' id='bendir'>
             <h2>Bendir Markalarımız</h2>
               <ul className='col-lg-6 markalar'>
                 <li>Gold Falez</li>
@@ -109,7 +109,7 @@ export default function Vurmalı() {
           </Container>
           <br></br>
 
-          <Container className='row vurmaliElements' id='bongo'>
+          <Container className='row vurmaliElements mx-auto' id='bongo'>
             <h2>Bongo Markalarımız</h2>
               <ul className='col-lg-6 markalar'>
                 <li>DADI</li>
@@ -121,7 +121,7 @@ export default function Vurmalı() {
               <img class="vurmaliImg" src="pexels-skynig-photography-9488150.jpg" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='marimba'>
+          <Container className='row vurmaliElements mx-auto' id='marimba'>
             <h2>Marimba Markalarımız</h2>
               <ul className='col-lg-6 markalar'>
                 <li>Majestic </li>
@@ -132,7 +132,7 @@ export default function Vurmalı() {
               <img class="vurmaliImg" src="Marimba.webp" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='ucgenZil'>
+          <Container className='row vurmaliElements mx-auto' id='ucgenZil'>
             <h2>Üçgen Zil Markalarımız</h2>
               <ul className='col-lg-6 markalar'>
                 <li>Yamaha</li>
@@ -142,7 +142,7 @@ export default function Vurmalı() {
               <img class="vurmaliImg" src="il_570xN.3428363159_jdg6.webp" alt="Card image"/>
           </Container>
           <br></br>
-          <Container className='row vurmaliElements' id='davul'>
+          <Container className='row vurmaliElements mx-auto' id='davul'>
             <h2>Davul Markalarımız</h2>
               <ul className='col-lg-6 markalar'>
                 <li>Ashton</li>

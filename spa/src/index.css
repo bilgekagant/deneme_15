@@ -197,6 +197,7 @@ body {
   background-color: rgba(33, 37, 41, 1);
   color: aliceblue;
   margin-left: 15%;
+  align-items: center;
 }
 
 .instrument-text{
