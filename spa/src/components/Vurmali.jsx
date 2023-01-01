@@ -121,12 +121,12 @@ export default function Vurmalı() {
           <br></br>
           <Container className='row vurmaliElements' id='marimba'>
             <span>Marimba Markalarımız</span>
-              <ul className='col-lg-6'>
+              <ul className='col-lg-6 ml-2'>
                 <li>Yamaha</li>
                 <li>siksok</li>
                 <li>a3131</li>
               </ul>
-              <p className='col-lg-6'>Marimba, vurma çalgılar ailesinden tuşlu bir çalgıdır. Genellikle tahtadan yapılma olan tuşlara malletlerle vurularak ses elde edilir. 4 1/3 - 5 1/2 oktav ses alanına sahiptir. Tuşlar piyanodaki gibi düzenlenmiştir. Kromatik marimba Güney Meksika ve Kuzey Guatemala'daki diatonic marimbadan türedi.</p>
+              <p className='col-lg-6 mr-2'>Marimba, vurma çalgılar ailesinden tuşlu bir çalgıdır. Genellikle tahtadan yapılma olan tuşlara malletlerle vurularak ses elde edilir. 4 1/3 - 5 1/2 oktav ses alanına sahiptir. Tuşlar piyanodaki gibi düzenlenmiştir. Kromatik marimba Güney Meksika ve Kuzey Guatemala'daki diatonic marimbadan türedi.</p>
               <img class="vurmaliImg" src="Marimba.webp" alt="Card image"/>
           </Container>
           <br></br>

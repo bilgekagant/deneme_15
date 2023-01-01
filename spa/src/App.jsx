@@ -17,13 +17,14 @@ import Tuslu from './components/Tuslu';
 
 function App() {
   
-
+// react-router ile single page application gereklilikleri sağlandı.
   return (
     <div className="App">
       <div>
         <BrowserRouter>
           <Routes>
             <Route path='/' element={<Layout/>}>
+              {/* layout elementi parent olarak eklendi ve her sayfada görülmesi sağlandı */}
               <Route path='/home' element={<Home/>} />
               <Route path='/about' element={<About/>} />
               <Route path='/services' element={<Services/>} />

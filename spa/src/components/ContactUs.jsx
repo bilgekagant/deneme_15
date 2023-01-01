@@ -1,11 +1,10 @@
 import Container from 'react-bootstrap/esm/Container';
-import FormCheckInput from 'react-bootstrap/esm/FormCheckInput';
 import FormGroup from 'react-bootstrap/esm/FormGroup';
 import FormLabel from 'react-bootstrap/esm/FormLabel';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/esm/Button';
+
 
 export default function ContactUs (){
     return(

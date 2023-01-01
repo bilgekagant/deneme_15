@@ -17,7 +17,7 @@ export default function Layout() {
           <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
               <LinkContainer to="/home"><Nav.Link>Home</Nav.Link></LinkContainer> 
-              <LinkContainer to="/about"><Nav.Link>About</Nav.Link></LinkContainer> 
+              <LinkContainer to="/about"><Nav.Link>About Us</Nav.Link></LinkContainer> 
               <LinkContainer to="/services"><Nav.Link>Services</Nav.Link></LinkContainer>  
               <NavDropdown title="Instruments" id="basic-nav-dropdown">
                 <LinkContainer to="/vurmali" id="vurmali1"><NavDropdown.Item>Vurmalı</NavDropdown.Item></LinkContainer>
