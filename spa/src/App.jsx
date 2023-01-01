@@ -13,6 +13,10 @@ import Yayli from './components/Yayli';
 import Nefesli from './components/Nefesli';
 import Tuslu from './components/Tuslu';
 
+import { Fragment } from 'react';
+import ScrollButton from './components/ScrollButton';
+import { Content, Heading } from './components/Styles';
+
 
 
 function App() {
@@ -37,7 +41,7 @@ function App() {
             </Route>
           </Routes>
         </BrowserRouter>
-        
+        <ScrollButton />
       </div>
       
       
