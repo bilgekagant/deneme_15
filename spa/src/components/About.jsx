@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import Container from "react-bootstrap/esm/Container";
 import Button from 'react-bootstrap/Button';
 import Col from "react-bootstrap/esm/Col";
@@ -19,7 +18,7 @@ export default function About(){
       <Container>
         <h2 className="aboutus-h2">Our Team</h2>
         <div className="row">
-          
+          {/* DOM da bütün kartları görebileceğimiz container */}
           <Col className="aboutUs">
             
             <Container>

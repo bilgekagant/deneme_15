@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
-import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from "react-bootstrap/esm/Container";
